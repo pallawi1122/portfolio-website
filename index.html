@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet"
+    href="style.css">
+</head> 
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="darkModeBtn"> Dark Mode</button>
+    </nav>
+    <section id="home">
+    <div class="hero">
+    <img src="PHOTOGRAPH.jpg" alt="My Photo" width="180">
+    <h1>Hello,I'm Pallawi Prajapati</h1>
+    <h3 id="typing"></h3>
+
+    <p>I love Creating Beautiful And Responsive Websites.</p>
+    <a href="#contact">
+    <button>Hire Me</button>
+    </a>
+    <a href="Resume.pdf" download>
+        <button>Download Resume</button>
+    </a>
+    <p>Welcome to my Portfolio Website. </p>
+    <div class="social-icons">
+        <a href="https://linkedin.com/in/pallawi-prajapati-8661072b5" target="_blank">LinkedIn</a>
+        <a href="https://github.com/pallawi1122" target="_blank">GitHub</a>
+    </div>
+    </div>
+    </section>
+    <section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        I am Pallawi Prajapati.<br>
+        I am a MCA student.<br>
+        I am learning Full stack Web Development.
+    </p>
+    <h2>Education</h2>
+
+    <div class="education">
+    <h3>MCA</h3>
+    <p>RVSCET,Jamshedpur</p> 
+    <p>2025-2027</p>
+    <h3>BCA</h3>
+    <P>AISECT University,Hazaribagh</P>
+    <p>2022-2025</p>   
+    </div>
+    </section>
+    <section id="skills">
+    <h2>my skills</h2>
+    <p>HTML</p>
+    <progress value="95" max="100"></progress>
+    <p>CSS</p>
+    <progress value="90" max="100"></progress>
+    <p>JAVA</p>
+    <progress value="75" max="100"></progress>
+    <p>JAVASCRIPT</p>
+    <progress value="80" max="100"></progress>
+    <p>MYSQL</p>
+    <progress value="70" max="100"></progress>
+    </section>
+    <section id="projects">
+    <h2>My Project</h2>
+    <div class="filter-buttons">
+    <button class="active" onclick="filterProjects('all', this)">All</button>
+    <button onclick="filterProjects('html', this)">HTML</button>
+    <button onclick="filterProjects('javascript', this)">JavaScript</button>
+</div>
+
+    <div class="project html">
+        <img src="portfolio.png" alt="Portfolio Project">
+    <h3>Portfolio Website</h3>
+    
+    <p>
+    This is my personal portfolio website created using HTML,CSS And JavaScript.</p>
+    <a href="https://pallawi1122.github.io/portfolio/" target="_blank">
+        <button>View project</button>
+    </a>
+    </div>
+    <div class="project javascript">
+        <h3>Coming Soon...</h3>
+        <p>More projects will be added soon.</p>
+    </div>
+    </section>
+    <section id="stats">
+        <h2>My Achievements</h2>
+
+        <div class="stats-container">
+            <div class="stat-card">
+                <h1>1+</h1>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat-card">
+                <h1>5+</h1>
+                <p>Skills Learned</p>
+            </div>
+            <div class="stat-card">
+                <h1>2025</h1>
+                <p>BCA Completed</p>
+            </div>
+            <div class="stat-card">
+                <h1>2027</h1>
+                <p>MCA Expected</p>
+            </div>
+            </div>
+    </section>
+    <h2>Certificates</h2>
+    <div class="Certificate">
+    <h3>Full Stack Web Development Internship</h3>
+    <p>Status: Currently Pursuing</p>
+    <p>Organization: Skillbit Technologies</p>
+    <p>Duration: 13th May 2026 to 12th july 2026</p>
+    <button>Certificate Coming Soon</button>
+    </div>
+    <h2>Experience</h2>
+    <div class="experience">
+        <h3>Full Stack Web Development Internship</h3>
+        <p>Currently Learning And Building Projects</p>
+        <p>Organisation: Skillbit Technologies</p>
+        <p>May 2026 - Present</p>
+    </div>
+    <section id="contact">
+    <h2>Contact Me</h2>
+    <h2>Connect With Me</h2>
+    <div class="Social">
+    <a href="linkedin.com/in/pallawi-prajapati-8661072b5" target="_blank">Linkedin</a>
+    </div>
+    <form>
+    <label>Name</label><br>
+    <input type="text" placeholder="Enter Your Name"><br><br>
+    <label>Your Email</label><br>
+    <input type="email" placeholder="Enter Your Email"><br><br>
+    <label>Your Message</label><br>
+    <textarea placeholder="Write Your Message"></textarea><br><br>
+    <button type="submit">Send Message</button>
+    <a href="Resume.pdf" download class="btn">
+        Download Resume
+    </a>
+    </form>
+
+    <p>Email: pallawiprajapati@gmail.com</p>
+    <p>Phone: +91 1234567890</p>
+    <p>Location: Jharkhand,India</p>
+    </section>
+    <footer>
+        <p>&copy; 2026 Pallawi Prajapati.All Rights Reserved.</p>
+        <p>Made With Using HTML & CSS</p>
+        <button id="topBtn" onclick="topFunction()">Top</button>
+    </footer>
+    <script src="script.js"></script>
+    
+
+</body>   
+</html>

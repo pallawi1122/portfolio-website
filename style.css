@@ -1,0 +1,356 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial,
+sans-serif;
+}
+
+h1{
+    color: darkblue;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+}
+h2{
+    color: darkblue;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    font-size: 20px;
+    margin: 10px;
+}
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid darkblue;
+    transition: 0.45s;
+}
+img:hover{
+    transform:scale(1.05)
+}
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: darkblue;
+    padding: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav a{
+    transition: 0.3s;
+}
+nav a:hover{
+    color: yellow;
+}
+h2{
+    margin-top: 40px;
+}
+
+p{
+    font-size: 22px;
+}
+h3{
+    color: darkred;
+    font-size: 28px;
+}
+
+button{
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    background-color: red;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.education{
+background-color: white;
+width: 500px;
+margin: auto;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0px 0px 15px gray;
+}
+.project{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px gray;
+}
+.certificate{
+    background-color: white;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px gray;
+}
+.experience{
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px gray;
+}
+
+.experience h3{
+    color: darkblue;
+}
+form{
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-size: 16px;
+}
+textarea{
+    height: 100px;
+}
+button{
+    background: royalblue;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #0056b3;
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #0056b3;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+progress{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+.social{
+    margin-top: 20px;
+}
+.social a{
+    text-decoration: none;
+    background: #0a66C2;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.social a:hover{
+    background: #004182;
+    transform: scale(1.05);
+}
+.btn{
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.btn:hover{
+    background: #0056b3;
+}
+footer{
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+footer p{
+    margin: 8px;
+}
+.dark-mode{
+    background-color: #121212;
+    color: white;
+}
+.dark-mode nav {
+    background-color: #000;
+}
+.dark-mode a {
+    color: white;
+}
+.dark-mode button {
+    background-color: #444;
+    color: white;
+}
+button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    img {
+        width: 150px;
+        height: 150px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    input,
+    textarea {
+        width: 90%;
+    }
+}
+.hero{
+    background: 
+linear-gradient(135deg, #2563eb, #1e3a8a);
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 30px;
+    text-align: center;    
+}
+.project,
+.education,
+.certificate,
+.experience{
+    transition: 0.4s;
+}
+.project:hover,
+.education:hover,
+.certificate:hover,
+.experience:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+}
+#typing{
+    color: darkblue;
+    font-size: 28px;
+    font-weight: bold;
+}
+progress{
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 1s;
+}
+progress:hover{
+    transform: scale(1.05);
+}
+.social-icons{
+    margin-top: 20px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 15px;
+    color: darkblue;
+    transition: 0.3s;
+}
+.social-icons a:hover{
+    color: red;
+}
+.stats-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+.stat-card{
+    background: white;
+    width: 180px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+    transition: 0.3s;
+}
+.stat-card:hover{
+    transform: translateY(-8px);
+}
+#topBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background: darkblue;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+}
+#topBtn:hover{
+    background: red;
+}
+.filter-buttons{
+    margin: 20px 0;
+}
+
+.filter-buttons button{
+    margin: 8px;
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.filter-buttons button:hover{
+    background-color: red;
+}
+.filter-buttons .active{
+    background-color: red;
+}
